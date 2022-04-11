@@ -7,5 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.5.3",
+    "faker": "^5.5.3"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^1.6.2"
+  }
 }
