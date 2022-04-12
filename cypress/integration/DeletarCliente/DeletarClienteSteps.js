@@ -12,10 +12,10 @@ Given(/^que com o tema "([^"]*)" selecionado eu realize o acesso a tela de inclu
 
 When(/^insira as informações do formulario$/, () => {
 	clientePage.inserirNomeCliente(nomeInserido);
-    clientePage.inserirUltimoNomeContato(faker.random.alphaNumeric(15));
-    clientePage.inserirPrimeiroNomeContato(faker.random.alphaNumeric(15));
+	clientePage.inserirUltimoNomeContato(faker.random.alphaNumeric(15));
+	clientePage.inserirPrimeiroNomeContato(faker.random.alphaNumeric(15));
 	clientePage.inserirTelefone(faker.random.number());
-    clientePage.inserirEnderecoLinhaUm(faker.random.alphaNumeric(15));
+	clientePage.inserirEnderecoLinhaUm(faker.random.alphaNumeric(15));
 	clientePage.inserirEnderecoLinhaDois(faker.random.alphaNumeric(15));
 	clientePage.inserirCidade(faker.random.alphaNumeric(5));
 	clientePage.inserirEstado(faker.random.alphaNumeric(2));
